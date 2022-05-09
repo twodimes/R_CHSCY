@@ -334,12 +334,3 @@ saveWorkbook(wb, file = outputfile, overwrite = TRUE)
 Sys.time()
 
 
-
-
-# ### EXAMPLE OUTPUT TO EXCEL FOR SECONDARY VALIDATION
-# library(writexl) # No formatting
-# exd <- select_at(chscy, vars(ont_id, year, DHH_SEX, DHH_AGE, starts_with("jv_age"), GEODVCD, starts_with("jvm"), starts_with("phc"), starts_with("mex"), starts_with("mxa"), starts_with("mxs"), wts_s))
-# exd <- select_at(chscy, vars(ont_id, year, DHH_SEX, DHH_AGE, starts_with("jv_age"), starts_with("jvm"), starts_with("geo"), starts_with("sui"), GEODVCD, wts_s, wts_shh))
-# write_xlsx(exd, paste0("C:/Users/jamesm.WDGHU/OneDrive - Wellington Dufferin Guelph Public Health/Projects/ExcelExport_suicide.xlsx"))
-# 
-# 
